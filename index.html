@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhramansathi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Inter&family=Ubuntu&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- Header -->
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>Bhraman</span>sathi</a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#book">Book</a>
+      <a href="#packeages">Packeages</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#review">Review</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="icons">
+      <i class="fas fa-search" id="search-btn"></i>
+      <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+      <input type="search" id="search-bar" placeholder="Search Here...">
+      <label for="search-bar" class="fas fa-search"></label>
+
+    </form>
+  </header>
+  <!-- Header section ends -->
+
+  <!-- Login form container -->
+  <div class="login-form-container">
+    <i class="fa-solid fa-xmark" id="form-close"></i>
+    <form action="">
+      <h3>login</h3>
+      <input type="email" class="box" placeholder="Enter your email: ">
+      <input type="password" class="box" placeholder="Enter your password: ">
+      <input type="submit" value="login now" class="btn">
+      <input type="checkbox" id="remember">
+      <label for="remember">remember me</label>
+      <p>forget password? <a href="#">Click here</a></p>
+      <p>don't have an account? <a href="#">register now</a></p>
+    </form>
+  </div>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Adventure is worthwhile</h3>
+      <p>Discover new places with us, adventure awaits</p>
+      <a href="#" class="btn">Discover more</a>
+    </div>
+    <div class="controls">
+      <span class="vid-btn active" data-src="img/nature-images-1.jpg"></span>
+      <span class="vid-btn" data-src="img/nature-images-2.jpg"></span>
+      <span class="vid-btn" data-src="img/nature-images-3.jpg"></span>
+      <span class="vid-btn" data-src="img/n4.jpg"></span>
+    </div>
+    <div class="video-container">
+      <img src="img/nature-images-1.jpg" id="video-slider">
+
+    </div>
+  </section>
+
+  <!-- Book section  -->
+  <section class="book" id="book">
+
+    <h1 class="heading">
+      <span>b</span>
+      <span>o</span>
+      <span>o</span>
+      <span>k</span>
+      <span class="space"></span>
+      <span>n</span>
+      <span>o</span>
+      <span>w</span>
+
+    </h1>
+    <div class="row">
+      <div class="image">
+        <img src="img/i3.png" alt="">
+      </div>
+      <form action="">
+        <div class="inputBox">
+          <h3>Where to</h3>
+          <input type="text" placeholder="place name">
+        </div>
+        <div class="inputBox">
+          <h3>how many</h3>
+          <input type="number" placeholder="number of guests">
+        </div>
+        <div class="inputBox">
+          <h3>Arrivals</h3>
+          <input type="date">
+        </div>
+        <div class="inputBox">
+          <h3>Leaving</h3>
+          <input type="date">
+        </div>
+        <input type="submit" class="btn">
+      </form>
+    </div>
+  </section>
+
+  <!-- package section -->
+
+  <section class="package" id="packeages">
+
+    <h1 class="heading">
+      <span>p</span>
+      <span>a</span>
+      <span>c</span>
+      <span>k</span>
+      <span>e</span>
+      <span>a</span>
+      <span>g</span>
+      <span>e</span>
+      <span>s</span>
+    </h1>
+    <div class="box-container">
+
+      <div class="box">
+        <img src="img/m1.jpg" alt="">
+        <div class="content">
+          <h3><i class="fa fa-map-marker" aria-hidden="true"> Mumbai </i></h3>
+          <p>Book your package now for your amazing journey</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">Book Now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="img/m2.jpg" alt="">
+        <div class="content">
+          <h3><i class="fa fa-map-marker" aria-hidden="true"> Rajasthan </i> </h3>
+          <p>Book your package now for your amazing journey</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">Book Now</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="img/m3.jpg" alt="">
+        <div class="content">
+          <h3><i class="fa fa-map-marker" aria-hidden="true"> Hyderabad </i></h3>
+          <p>Book your package now for your amazing journey</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">Book Now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/m4.jpeg" alt="">
+        <div class="content">
+          <h3><i class="fa fa-map-marker" aria-hidden="true"> Sydney </i> </h3>
+          <p>Book your package now for your amazing journey</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">Book Now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/m5.jpg" alt="">
+        <div class="content">
+          <h3><i class="fa fa-map-marker" aria-hidden="true"> Dubai </i> </h3>
+          <p>Book your package now for your amazing journey</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">Book Now</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/m6.jpg" alt="">
+        <div class="content">
+          <h3><i class="fa fa-map-marker" aria-hidden="true"> Kashmir </i> </h3>
+          <p>Book your package now for your amazing journey</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <div class="price">$90.00 <span>$120.00</span></div>
+          <a href="#" class="btn">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services section -->
+
+  <section class="services" id="services">
+
+    <h1 class="heading">
+      <span>s</span>
+      <span>e</span>
+      <span>r</span>
+      <span>v</span>
+      <span>i</span>
+      <span>c</span>
+      <span>e</span>
+      <span>s</span>
+    </h1>
+
+    <div class="box-container">
+      <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>affordable hotel</h3>
+        <p></p>
+      </div>
+      <div class="box">
+        <i class="fas fa-utensils"></i>
+        <h3>food and drinks</h3>
+        <p></p>
+      </div>
+      <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>safety guides</h3>
+        <p></p>
+      </div>
+      <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>around the world</h3>
+        <p></p>
+      </div>
+      <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p></p>
+      </div>
+      <div class="box">
+        <i class="fas fa-hiking"></i>
+        <h3>adventures</h3>
+        <p></p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Gallery section -->
+  <section class="gallery" id="gallery">
+
+    <h1 class="heading">
+      <span>g</span>
+      <span>a</span>
+      <span>l</span>
+      <span>l</span>
+      <span>e</span>
+      <span>r</span>
+      <span>y</span>
+    </h1>
+    <div class="box-container">
+
+      <div class="box">
+        <img src="img/g1.jpeg" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Explore amazing places that make your life better. Explore the world with us. Here's some photos that make
+            your heartbeat fast!!</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/g2.jpg" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Explore amazing places that make your life better. Explore the world with us. Here's some photos that make
+            your heartbeat fast!!</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/g3.jpg" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Explore amazing places that make your life better. Explore the world with us. Here's some photos that make
+            your heartbeat fast!!</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/g4.png" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Explore amazing places that make your life better. Explore the world with us. Here's some photos that make
+            your heartbeat fast!!</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/g6.jpeg" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Explore amazing places that make your life better. Explore the world with us. Here's some photos that make
+            your heartbeat fast!!</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/g7.jpeg" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Explore amazing places that make your life better. Explore the world with us. Here's some photos that make
+            your heartbeat fast!!</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/g8.jpeg" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Explore amazing places that make your life better. Explore the world with us. Here's some photos that make
+            your heartbeat fast!!</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/g9.jpg" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Explore amazing places that make your life better. Explore the world with us. Here's some photos that make
+            your heartbeat fast!!</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <img src="img/g10.jpg" alt="">
+        <div class="content">
+          <h3>amazing places</h3>
+          <p>Explore amazing places that make your life better. Explore the world with us. Here's some photos that make
+            your heartbeat fast!!</p>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Review Section -->
+
+  <section class="review" id="review">
+    <h1 class="heading">
+      <span>r</span>
+      <span>e</span>
+      <span>v</span>
+      <span>i</span>
+      <span>e</span>
+      <span>w</span>
+      <span>s</span>
+    </h1>
+
+    <div class="swiper review-slider">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="img/r1.jpg" alt="">
+            <h3>Laura Lay</h3>
+            <p>I had an incredible experience with Bhramansathi during my trip to Wayanad. Special thanks to Avijit for
+              meticulously planning and organizing every aspect of the journey. From the accommodations to the
+              itinerary, everything was well-arranged and seamless. I had an incredible experience with Sunshine
+              Vacations And Tourism during my trip to Wayanad. Special thanks to Avijit for meticulously planning and
+              organizing every aspect of the journey. From the accommodations to the itinerary, everything was
+              well-arranged and seamless.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="img/r4.jpeg" alt="">
+            <h3>Chu Lom Chu</h3>
+            <p>I had an incredible experience with Bhramansathi during my trip to Wayanad. Special thanks to Avijit for
+              meticulously planning and organizing every aspect of the journey. From the accommodations to the
+              itinerary, everything was well-arranged and seamless. I had an incredible experience with Sunshine
+              Vacations And Tourism during my trip to Wayanad. Special thanks to Avijit for meticulously planning and
+              organizing every aspect of the journey. From the accommodations to the itinerary, everything was
+              well-arranged and seamless.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="img/r3.jpg" alt="">
+            <h3>Jason Gay</h3>
+            <p>I had an incredible experience with Bhramansathi during my trip to Wayanad. Special thanks to Avijit for
+              meticulously planning and organizing every aspect of the journey. From the accommodations to the
+              itinerary, everything was well-arranged and seamless. I had an incredible experience with Sunshine
+              Vacations And Tourism during my trip to Wayanad. Special thanks to Avijit for meticulously planning and
+              organizing every aspect of the journey. From the accommodations to the itinerary, everything was
+              well-arranged and seamless.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="img/r5.jpg" alt="">
+            <h3>Biswajit Rakshit</h3>
+            <p>I had an incredible experience with Bhramansathi during my trip to Wayanad. Special thanks to Avijit for
+              meticulously planning and organizing every aspect of the journey. From the accommodations to the
+              itinerary, everything was well-arranged and seamless. I had an incredible experience with Sunshine
+              Vacations And Tourism during my trip to Wayanad. Special thanks to Avijit for meticulously planning and
+              organizing every aspect of the journey. From the accommodations to the itinerary, everything was
+              well-arranged and seamless.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h1 class="heading">
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>a</span>
+      <span>c</span>
+      <span>t</span>
+      <span class="space"></span>
+      <span>u</span>
+      <span>s</span>
+    </h1>
+
+    <div class="row">
+      <div class="image">
+        <img src="img/con2.jpg" alt="">
+      </div>
+      <form action="">
+        <div class="inputBox">
+          <input type="text" placeholder="Name">
+          <input type="email" placeholder="E-mail">
+        </div>
+        <div class="inputBox">
+          <input type="number" placeholder="number">
+          <input type="text" placeholder="subject">
+        </div>
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" class="btn" value="send message">
+      </form>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>about us</h3>
+        <p>We’re on a mission to help people discover the real value of travel — to inspire, to give more reasons, to
+          make it easy — for you to go. Our company was founded back in 2005, and since then, we’ve imagined and created
+          some of the most well-loved products for travelers all around the world.
+
+          Today, Bhramansathi is used by millions of people every month — people who travel for adventure, for work, for
+          family and for many other reasons. That’s why we work tirelessly to make your experience of planning & booking
+          flights, hotels and trips as seamless as possible.</p>
+      </div>
+      <div class="box">
+        <h3>branch location</h3>
+        <a href="#">Kolkata</a>
+        <a href="#">Midnapur</a>
+        <a href="#">Alipurduar</a>
+        <a href="#">Hooghly</a>
+      </div>
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#packeages">Packeages</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+      <div class="box">
+        <h3>Follow us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+
+    </div>
+    <h1 class="credit">Created by <span>Sayak Das</span> | All rights reserved!</h1>
+
+  </section>
+
+</body>
+
+</html>
